@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/jetpack_graph"
+    app:startDestination="@id/fragement1">
+
+    <fragment
+        android:id="@+id/fragment2"
+        android:name="com.example.fragement_task.jetpack.Fragment2"
+        android:label="fragment_2"
+        tools:layout="@layout/fragment_2" />
+    <fragment
+        android:id="@+id/fragement1"
+        android:name="com.example.fragement_task.jetpack.Fragement1"
+        android:label="fragment_fragement1"
+        tools:layout="@layout/fragment_fragement1" />
+    <fragment
+        android:id="@+id/fragment3"
+        android:name="com.example.fragement_task.jetpack.Fragment3"
+        android:label="fragment_3"
+        tools:layout="@layout/fragment_3" />
+</navigation>
